@@ -1,7 +1,7 @@
 [package]
-name = "avnclient"
+name = "vnlc"
 version = "0.0.0"
-description = "A Tauri App"
+description = "Visual Novel Library Client to keep a better oversight of your visual novels and their updates and patches."
 authors = ["AnarchyEcho"]
 edition = "2021"
 
