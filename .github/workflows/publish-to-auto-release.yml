@@ -28,6 +28,9 @@ jobs:
     runs-on: ${{ matrix.settings.platform }}
     steps:
       - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
 
       - name: setup node
         uses: actions/setup-node@v4
