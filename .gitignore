@@ -3,6 +3,7 @@
 *.lockb
 *_config.json
 !*sample_config.json
+.output
 
 # Database
 
